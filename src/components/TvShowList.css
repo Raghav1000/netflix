@@ -1,0 +1,32 @@
+.tvShowList_details > img {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+.tvShowList_details > img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.tvShowList_details > h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  width: 200px;
+  height: 20px;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.tvShowList_details > p {
+  color: gray;
+  font-size: 14px;
+  margin-top: 10px;
+}
